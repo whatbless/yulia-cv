@@ -1,0 +1,159 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-box {
+    background-color: gainsboro;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.photo-box {
+    width: 250px;
+    overflow: hidden;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.header-name {
+    padding-top: 60px;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.header-description {
+    padding-top: 10px;
+    padding-left: 25px;
+    font-size: 24px;
+    font-style: italic;
+    background-color: darkgray;
+}
+
+.left-side {
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.left-side h1 {
+    font-style: italic;
+}
+
+.left-side p {
+    font-size: 18px;
+    background-color: gainsboro;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.ltrt {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.lbrb {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.border {
+    border-radius: 15px;
+}
+
+.lists {
+    background-color: gainsboro;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    border-radius: 15px;
+    list-style: disc;
+}
+
+.major {
+    display: flex;
+}
+
+.experience {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 70%;
+}
+
+.exp-list {
+    text-align: left;
+}
+
+.j {
+    text-align: left;
+    padding-top: 5px;
+}
+
+.k {
+    font-size: 18px;
+}
+
+.hr-first,
+.hr-second {
+    width: 95%;
+    background-color: darkgray;
+    height: 4px;
+    margin-top: 40px;
+    list-style: none;
+    border-radius: 15px;
+}
+
+.skills {
+    text-align: center;
+    background-color: gainsboro;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.contacs {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
